@@ -12,7 +12,7 @@ def input_error(func):
             elif func.__name__ == 'show_phone':
                 return "Enter the phone please."
             else:
-                return "Enter the argument for the command"
+                return "Enter the argument for the command."
         except KeyError:
             return "Contact not exist."
         except IndexError:
